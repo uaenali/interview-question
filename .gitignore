@@ -1,0 +1,30 @@
+# dir 不需要提交的目录
+/node_modules
+
+# file 不需要提交的文件
+config.ini
+
+# log 不需要提交的任意包含后缀名为log的文件
+*.log
+
+# Package Files 不需要提交的任意包含后缀名为jar的文件
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
+
+# IDE Files 不需要提交的任意包含后缀名为idea的文件
+*.idea
+*.iml
+*.ipr
+*.iws
+
+# OS Files 不需要提交的任意包含后缀名为DS_Store的文件
+.DS_Store
+
+# OS Files 不需要提交的任意包含后缀名为Thumbs.db的文件
+Thumbs.db
+
+# OS Files 不需要提交的任意包含后缀名为ehthumbs.db的文件
+ehthumbs.db
